@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+.header-bottom-container {
+  display: flex;
+}
+.question {
+  font-weight: 400;
+}
+
+.flex-item {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  align-items: center;
+  row-gap: 6px;
+}
+.icon {
+  color: rgb(231, 230, 230);
+}
+
+.bottom-container {
+  display: flex;
+  margin-top: 0;
+  width: 100vw;
+}
+.code-container {
+  background-color: rgb(250, 246, 246);
+  padding: 20px 20px;
+  font-size: 14px;
+}
+.content-container {
+  width: 85%;
+}
+button {
+  background-color: rgb(225, 236, 244);
+  color: rgb(57, 115, 157);
+  border: rgb(231, 230, 230);
+}
+
+.bottom-content {
+  margin-top: 10px;
+  font-size: 13px;
+  padding-right: 10px;
+  display: flex;
+}
+.user-rewards {
+  display: flex;
+
+  align-items: center;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+.gold {
+  background-color: gold;
+}
+.silver {
+  background-color: silver;
+}
+.bronze {
+  background-color: brown;
+}
+.right-side {
+  background-color: rgb(225, 236, 244);
+  border-radius: 5px;
+  color: gray;
+}
+
+.user-info .user-gravatar32 {
+  float: left;
+  width: 32px;
+  height: 32px;
+  border-radius: 1px;
+}
+
+.anonymous-gravatar {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: 0 -400px;
+}
+.comments-section {
+  font-size: 13px;
+}
+.comment {
+  margin-left: 20px;
+}
